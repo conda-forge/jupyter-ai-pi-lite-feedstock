@@ -1,7 +1,7 @@
 schema_version: 1
 
 context:
-  version: "0.1.2"
+  version: "0.2.1"
 
 recipe:
   name: jupyter-ai-pi-lite
@@ -16,7 +16,7 @@ outputs:
       name: jupyter-ai-pi-lite
     source:
       url: https://pypi.org/packages/source/j/jupyter-ai-pi-lite/jupyter_ai_pi_lite-${{ version }}.tar.gz
-      sha256: bddba92ac51e985c170896841886d3496d005fcae8e5bcc69c5954bc91ae7806
+      sha256: 6959f3206a6c0a66aa18e2d1a259c6beb940b87280d9565d34f9750be511976a
     build:
       noarch: python
       script: ${{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolation
@@ -59,7 +59,7 @@ outputs:
       name: jupyter-ai-pi-lite-terminal
     source:
       url: https://pypi.org/packages/source/j/jupyter-ai-pi-lite-terminal/jupyter_ai_pi_lite_terminal-${{ version }}.tar.gz
-      sha256: 34940061e70f75948d6452d123ece84ed3c0165ee410e945072008192f31d994
+      sha256: 0496d33c1d27b101bc7934fa80e64a3ebc63af1a101a99eb3085caf07fd92b14
     build:
       noarch: python
       script: ${{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolation
