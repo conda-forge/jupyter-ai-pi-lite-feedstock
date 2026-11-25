@@ -228,4 +228,5 @@ Feedstock Maintainers
 =====================
 
 * [@jtpio](https://github.com/jtpio/)
+* [@trungleduc](https://github.com/trungleduc/)
 
